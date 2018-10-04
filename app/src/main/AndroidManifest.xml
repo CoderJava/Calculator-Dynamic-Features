@@ -18,6 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.penjumlahan.PenjumlahanActivity" />
+        <activity android:name=".ui.pengurangan.PenguranganActivity" />
     </application>
 
 </manifest>

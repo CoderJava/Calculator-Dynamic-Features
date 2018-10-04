@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.ysn.calculatordynamicfeatures.R
+import com.ysn.calculatordynamicfeatures.ui.pengurangan.PenguranganActivity
 import com.ysn.calculatordynamicfeatures.ui.penjumlahan.PenjumlahanActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -30,7 +31,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     startActivity(Intent(this, PenjumlahanActivity::class.java))
                 }
                 R.id.button_pengurangan_activity_main -> {
-                    // TODO: do something in here
+                    startActivity(Intent(this, PenguranganActivity::class.java))
                 }
                 R.id.button_perkalian_activity_main -> {
                     // TODO: do something in here
