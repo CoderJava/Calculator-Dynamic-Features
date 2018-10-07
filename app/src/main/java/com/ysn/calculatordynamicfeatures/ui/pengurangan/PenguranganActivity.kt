@@ -1,9 +1,8 @@
 package com.ysn.calculatordynamicfeatures.ui.pengurangan
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import com.ysn.calculatordynamicfeatures.R
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_pengurangan.*
 
 class PenguranganActivity : AppCompatActivity() {

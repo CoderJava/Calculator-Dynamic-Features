@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Calculator Dynamic Features</string>
+    <string name="title_perkalian">Perkalian</string>
+    <string name="title_pembagian">Pembagian</string>
 </resources>

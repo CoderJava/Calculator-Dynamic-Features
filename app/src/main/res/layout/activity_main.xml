@@ -46,4 +46,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_perkalian_activity_main" />
 
+    <Button
+        android:id="@+id/button_install_features_activity_main"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Pasang fitur lainnya"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_pembagian_activity_main" />
+
 </android.support.constraint.ConstraintLayout>

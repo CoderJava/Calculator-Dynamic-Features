@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".PerkalianActivity">
+
+    <EditText
+        android:id="@+id/edit_text_bilangan_1_activity_perkalian"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Bilangan 1"
+        android:inputType="number"
+        app:layout_constraintEnd_toStartOf="@+id/text_view_label_activity_perkalian"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_view_label_activity_perkalian"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="x"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toStartOf="@+id/edit_text_bilangan_2_activity_perkalian"
+        app:layout_constraintStart_toEndOf="@+id/edit_text_bilangan_1_activity_perkalian" />
+
+    <EditText
+        android:id="@+id/edit_text_bilangan_2_activity_perkalian"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Bilangan 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/text_view_label_activity_perkalian"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_hitung_activity_perkalian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Hitung"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text_bilangan_1_activity_perkalian" />
+
+    <TextView
+        android:id="@+id/text_view_result_activity_perkalian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="0"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_hitung_activity_perkalian" />
+
+</android.support.constraint.ConstraintLayout>
